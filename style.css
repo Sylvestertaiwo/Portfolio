@@ -453,7 +453,7 @@ button{
 }
 .reveal.in{
     opacity: 1;
-    animation: slide-up .5s ease;
+    animation: slide-up .6s ease;
 }
 #whatsApp-link{
     color: #c0c1c3;
