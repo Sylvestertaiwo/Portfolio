@@ -20,7 +20,7 @@
 footer,
 section{
     margin: 0 auto;
-    padding: 96px 24px;
+    padding: 40px 24px;
     max-width: 1040px;
 }
 body, html{
@@ -473,8 +473,7 @@ button{
         width: 100vw;
     }
     #hero{
-        padding-top: 20rem;
-        min-height: 90dvh;
+        min-height: 80dvh;
     }
 }
 @media (max-width: 480px) {
