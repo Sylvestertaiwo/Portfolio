@@ -136,6 +136,7 @@ body::before{
 #hero{
     padding-top: 15rem;
     display: grid;
+    padding-bottom: 7rem;
 }
 
 .role{
@@ -442,9 +443,17 @@ button{
     opacity: 0;
     transition: .5s ease;
 }
-
+@keyframes slide-up {
+    0%{
+        transform: translateY(50%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
 .reveal.in{
     opacity: 1;
+    animation: slide-up .5s ease;
 }
 #whatsApp-link{
     color: #c0c1c3;
